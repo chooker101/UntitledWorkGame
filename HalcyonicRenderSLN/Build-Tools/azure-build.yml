@@ -1,0 +1,8 @@
+jobs:
+- job: PowershellClang
+  displayName: Run Powershell ClangTidy Checks
+  pool:
+    vmImage: 'vs2017-win2016'
+  steps:
+  - powershell:  Build-Tools\Clang-Tidy\run-clang-tidy.ps1 -dir $(System.DefaultWorkingDirectory) -tidy-wae -continue -tidy "-*,modernize-*"
+    displayName: Powershell Calling Run-Clang-Tidy Modernize

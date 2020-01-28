@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Source\Buffer\halcyonic_buffer.cpp">
+      <Filter>Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DrawInfo\halcyonic_draw_info.cpp">
+      <Filter>DrawInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InternalVulkan\vulkan_android.cpp">
+      <Filter>InternalVulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InternalVulkan\vulkan_mem_alloc.cpp">
+      <Filter>InternalVulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_render_info.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_render_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\precompiled.cpp" />
+    <ClCompile Include="..\Source\Pipeline\halcyonic_input_attributes.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_pipeline.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_pipeline_layout.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_shader_input_layout.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\DrawInfo\halcyonic_draw_buffer.cpp">
+      <Filter>DrawInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Command\halcyonic_draw_command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_depthstencil_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_render.win32.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InternalVulkan\vulkan_swap_chain.win32.cpp">
+      <Filter>InternalVulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\InternalVulkan\vulkan_device.win32.cpp">
+      <Filter>InternalVulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_renderpass_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_depthstencil.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_framebuffer_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_renderpass.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_framebuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_semaphore.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_colour_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Render\halcyonic_swapchain_placeholder_layout.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_buffer_descriptor.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_descriptor_pool.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Command\halcyonic_command_pool.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Command\halcyonic_setup_command_buffer.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_sampler_descriptor.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_descriptor_layout.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_image_sampler_layout.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Pipeline\halcyonic_image_sampler.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Buffer\halcyonic_buffer.hpp">
+      <Filter>Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DrawInfo\halcyonic_draw_info.hpp">
+      <Filter>DrawInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InternalVulkan\vulkan_android.hpp">
+      <Filter>InternalVulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InternalVulkan\vulkan_device.hpp">
+      <Filter>InternalVulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\InternalVulkan\vulkan_swap_chain.hpp">
+      <Filter>InternalVulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_render.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_render_info.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_render_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\halcyonic_debug.hpp" />
+    <ClInclude Include="..\Source\precompiled.hpp" />
+    <ClInclude Include="..\Source\Pipeline\halcyonic_input_attributes.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_pipeline.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_pipeline_enums.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_pipeline_layout.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_shader_input_layout.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\includes.hpp" />
+    <ClInclude Include="..\Source\Command\halcyonic_draw_command.hpp">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\DrawInfo\halcyonic_draw_buffer.hpp">
+      <Filter>DrawInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_renderpass_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_depthstencil_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_attachment_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_depthstencil.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_framebuffer_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_renderpass.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_framebuffer.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_semaphore.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_colour_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Render\halcyonic_swapchain_placeholder_layout.hpp">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_buffer_descriptor.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_descriptor_pool.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Command\halcyonic_command_pool.hpp">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\halcyonic_renderer.hpp" />
+    <ClInclude Include="..\Source\Command\halcyonic_setup_command_buffer.hpp">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_sampler_descriptor.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_descriptor_layout.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_descriptor.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_image_sampler.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Pipeline\halcyonic_image_sampler_layout.hpp">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DrawInfo">
+      <UniqueIdentifier>{5f050144-7167-46e9-aa17-9366b8a7105b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InternalVulkan">
+      <UniqueIdentifier>{46e1f97f-d36c-412c-b0af-a1cc5707ffb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{ccab592b-19e6-447f-a627-3a03d076ffc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{e8ba2946-a658-4e4a-b3e2-9a3da17e14be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{a22709c4-148d-4fbf-a9ce-aaa3b957e377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buffer">
+      <UniqueIdentifier>{ce5bccd7-9fa2-4f75-ae08-885b555e2ea4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Source\DrawInfo\halcyonic_draw_buffer.inl">
+      <Filter>DrawInfo</Filter>
+    </None>
+    <None Include="..\Source\Pipeline\halcyonic_descriptor_layout_docu.inl">
+      <Filter>Pipeline</Filter>
+    </None>
+  </ItemGroup>
+</Project>
